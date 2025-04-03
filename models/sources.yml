@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: src
+    database: sf_sample
+    schema: public
+    tables:
+      - name: customer
+      - name: nation
+      - name: region
+
+# DBT doesn't look for the name of the file, it looks for the extension ".yml"
